@@ -1,6 +1,6 @@
 import React from "react";
-import { useCounter } from "../hooks/useCounter";
-import { useFetch } from "../hooks/useFetch";
+import { useCounter } from "../../hooks/useCounter";
+import { useFetch } from "../../hooks/useFetch";
 import "./custom-hooks.css";
 
 export const MultipleCustomHooks = () => {
@@ -12,7 +12,7 @@ export const MultipleCustomHooks = () => {
 
   const { author, quote } = !!data && data[0];
 
-  console.log(author, quote);
+  // console.log(author, quote);
 
   return (
     <div>
